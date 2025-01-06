@@ -1,0 +1,94 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+   font-family: technology;
+}
+@font-face { font-family: technology; src: url('Technology-Bold.ttf') }
+html,body{
+   height: 100%;
+   width: 100%;
+  
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: white;
+}
+.clock{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 3rem;
+    background-image: radial-gradient(circle,rgb(0, 247, 255),rgb(255, 0, 212),rgb(255, 0, 212));
+    padding: 40px;
+}
+.hour{
+    height: 30rem;
+    width: 20rem;
+    background-color: #1E232A;
+    border-radius: 50px;
+    align-content: center;
+    font-size: 21rem;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 40px white, -10px -10px 40px white inset;
+}
+.minute{
+    height: 30rem;
+    width: 20rem;
+    background-color: #1E232A;
+    border-radius: 50px;
+    font-size: 16rem;
+    color: white;
+    text-align: center;
+    align-content: center;
+    box-shadow: 10px 10px 40px white, -10px -10px 40px white inset;
+
+}
+.mor-eve{
+    height: 10rem;
+    width: 12rem;
+    background-color: #1E232A;
+    border-radius: 50px;
+    font-size: 7rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 7rem;
+    align-content: center;
+    box-shadow: 10px 10px 40px white, -10px -10px 40px white inset;
+}
+.second{
+    height: 10rem;
+    width: 10rem;
+    background-color: #1E232A;
+    border-radius: 50px;
+    margin-top: 19rem;
+    font-size: 7rem;
+    color: white;
+    text-align: center;
+    align-content: center;
+    box-shadow: 10px 10px 40px white, -10px -10px 40px white inset;
+}
+.bar{
+    height: 30rem;
+    width: 10rem;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+height: 5rem;
+width: 5rem;
+background-color: #1E232A;
+border-radius: 50%;
+}
